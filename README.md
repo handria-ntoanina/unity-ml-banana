@@ -9,7 +9,8 @@ The agent has 4 actions:
 * turn left
 * and turn right
 `The environment is considered as solved if the agent is winning an average of +13 points for 100 consecutive episodes.`<br/>
-A video of a trained agent can be found [here](https://www.youtube.com/watch?v=Ig4i73Y92EQ&feature=youtu.be)
+A video of a trained agent can be found [here](https://www.youtube.com/watch?v=Ig4i73Y92EQ)
+[![Video](https://img.youtube.com/vi/Ig4i73Y92EQ/0.jpg)](https://www.youtube.com/watch?v=Ig4i73Y92EQ)
 ## Content of this repository
 * report.pdf: a document that describes the details of the different implementation, along with ideas for future work
 * jupyter notebook load_run_agent.ipynb: a notebook that can load and run the saved agents
