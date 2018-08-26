@@ -1,8 +1,8 @@
 # unity-ml-banana
-This repository contains an implementation of reinforcement learning based on Deep-Q-Network (DQN), Double DQN, Dueling DQN, and Priority Experience Replay.
-The target of the agent is to collect good bananas in a square world which is similar to the [banana collector of Unity](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector).
-For each yellow banana that is collected, the agent is given a reward of +1. The blue ones give -1 reward.
-![Banana](images/banana.png)
+This repository contains an implementation of reinforcement learning based on Deep-Q-Network (DQN), Double DQN, Dueling DQN, and Priority Experience Replay.<br/>
+The target of the agent is to collect good bananas in a square world which is similar to the [banana collector of Unity](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector).<br/>
+For each yellow banana that is collected, the agent is given a reward of +1. The blue ones give -1 reward.<br/>
+![Banana](images/banana.png)<br/>
 The agent has 4 actions:
 * move forward
 * move backward
@@ -29,7 +29,7 @@ To run the codes, follow the next steps:
 	* If using __Windows__, 
 		* download swig for windows and add it the PATH of windows
 		* install Microsoft Visual C++ Build Tools
-	* the run these commands
+	* then run these commands
 	```bash
 	pip install gym
 	pip install gym[classic_control]
