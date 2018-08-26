@@ -12,8 +12,8 @@ The agent has 4 actions:
 A video of a trained agent can be found by clicking on the image here below <br/>
 [![Video](https://img.youtube.com/vi/Ig4i73Y92EQ/0.jpg)](https://www.youtube.com/watch?v=Ig4i73Y92EQ)
 ## Content of this repository
-* report.pdf: a document that describes the details of the different implementation, along with ideas for future work
-* jupyter notebook load_run_agent.ipynb: a notebook that can load and run the saved agents
+* __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work
+* jupyter notebook __load_run_agent.ipynb__: a notebook that can load and run the saved agents
 * folder __double_dqn__: implementation of double deep q network (succeeded)
 * folder __dueling_double_dqn__: implementation of double deep q network with a dueling network (succeeded)
 * folder __per_dueling_double_dqn__: implementation of an agent with double DQN, dueling Network, and Prioritized Experience Replay all together (pending)
