@@ -8,10 +8,14 @@ The agent has 4 actions:
 * move backward
 * turn left
 * and turn right
-The environment is considered as solved if the agent is winning an average of +13 points for 100 consecutive episodes.
-
+`The environment is considered as solved if the agent is winning an average of +13 points for 100 consecutive episodes.`<br/>
+A video of a trained agent can be found [here](https://www.youtube.com/watch?v=Ig4i73Y92EQ&feature=youtu.be)
 ## Content of this repository
-
+* report.pdf: a document that describes the details of the different implementation, along with ideas for future work
+* jupyter notebook load_run_agent.ipynb: a notebook that can load and run the saved agents
+* folder __double_dqn__: implementation of double deep q network (succeeded)
+* folder __dueling_double_dqn__: implementation of double deep q network with a dueling network (succeeded)
+* folder __per_dueling_double_dqn__: implementation of an agent with double DQN, dueling Network, and Prioritized Experience Replay all together (pending)
 ## Requirements
 To run the codes, follow the next steps:
 * Create a new environment:
