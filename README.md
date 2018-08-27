@@ -7,7 +7,7 @@ The agent has 4 actions:
 * move forward
 * move backward
 * turn left
-* and turn right
+* and turn right<br/>
 `The environment is considered as solved if the agent is winning an average of +13 points for 100 consecutive episodes.`<br/>
 A video of a trained agent can be found by clicking on the image here below <br/>
 [![Video](https://img.youtube.com/vi/Ig4i73Y92EQ/0.jpg)](https://www.youtube.com/watch?v=Ig4i73Y92EQ)
